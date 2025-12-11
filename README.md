@@ -248,39 +248,8 @@ YHunter was designed for security professionals, incident responders, and threat
 - **Releases:** [GitHub Releases](https://github.com/michaelyamout/YHunter/releases)
 - **Documentation:** See `README.md` and `YHunter-GUI/README.md` for detailed documentation
 
----
 
 
-
-## 🎁 YHunter-GUI Addon Details
-
-YHunter-GUI is an optional Windows Forms application that extends YHunter.exe for bulk operations across domain environments.
-
-### GUI Features
-
-- **Modern Dark Theme UI** - Professional, sleek interface
-- **Bulk Collection** - Deploy and execute across hundreds/thousands of hosts
-- **Localhost Mode** - Run directly on local machine without domain credentials
-- **Selective Command Execution** - Choose individual commands, groups, or all commands
-- **Log Retrieval** - Download collected logs from remote hosts
-- **Real-time Status** - Live status updates with color-coded messages
-- **Input Validation** - Comprehensive validation before execution
-- **Progress Tracking** - Per-host and overall progress reporting
-
-### GUI Requirements
-
-- Windows 10/11 or Windows Server 2016+
-- .NET Framework 4.8 Runtime
-- PowerShell 2.0+ (for remote execution)
-- Domain credentials with appropriate permissions (for remote mode)
-- YHunter.exe accessible via UNC path (typically SYSVOL)
-
-### GUI Usage
-
-See `YHunter-GUI/README.md` for complete GUI documentation including:
-- Setup instructions
-- Remote vs. Localhost modes
-- Command selection
 - Log retrieval
 - Troubleshooting
 
