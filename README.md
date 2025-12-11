@@ -50,39 +50,6 @@ A modern Windows Forms application for orchestrating YHunter.exe across multiple
 
 ## 🚀 Quick Start
 
-### Standalone Usage
-
-1. **Download** `YHunter.exe` from the [Releases](https://github.com/michaelyamout/YHunter/releases) page
-2. **Run** with an output file path:
-   ```cmd
-   YHunter.exe -outfile C:\Windows\Tasks\YHunter_results.txt
-   ```
-3. **Review** the collected data in the output file
-
-### With GUI (Bulk Operations)
-
-1. **Download** both `YHunter.exe` and `YHunter-GUI.exe`
-2. **Place** YHunter.exe on a network share (e.g., `\\dc01\SYSVOL\corp.local\scripts\`)
-3. **Launch** YHunter-GUI.exe
-4. **Configure** domain credentials, target hosts, and paths
-5. **Click** "Run Collection" to deploy and execute across all targets
-
-## 📋 System Requirements
-
-### YHunter.exe
-- **OS:** Windows 7 or later (64-bit)
-- **PowerShell:** 2.0 or later (for PowerShell-based commands)
-- **Permissions:** Some commands require administrator privileges
-- **Dependencies:** None (statically linked)
-
-### YHunter-GUI (Optional)
-- **OS:** Windows 10/11 or Windows Server 2016+
-- **.NET Framework:** 4.8 Runtime
-- **PowerShell:** 2.0+ (for remote execution)
-- **Network:** Domain-joined environment with PowerShell Remoting enabled
-
-## 📖 Detailed Documentation
-
 ### Command Line Options
 
 ```cmd
@@ -163,43 +130,6 @@ YHunter collects 25 different types of system information organized into 7 logic
 ### 7. System Files (1 command)
 - Hosts File (PowerShell)
 
-## 📁 Output Format
-
-The output file contains:
-- **UTF-8 encoding with BOM** (for PowerShell compatibility)
-- **Clear section headers** with timestamps
-- **Command output** in original format
-- **Error messages** if commands fail
-- **Summary** at the end
-
-Example section:
-```
-========================================
-System Information
-========================================
-[Timestamp: 2024-01-15 14:30:45]
-========================================
-
-[Command output here...]
-
-```
-
-## 🔒 Security Considerations
-
-### YHunter.exe
-- ✅ **No network communication** - All operations are local
-- ✅ **No persistence mechanisms** - No registry modifications or scheduled tasks
-- ✅ **Minimal footprint** - Single executable, no installation required
-- ✅ **No obfuscation** - Source code available for review
-- ✅ **Writes only to specified file** - No other file system modifications
-
-### YHunter-GUI (Optional)
-- ⚠️ **Password Storage:** Passwords stored in memory only (not saved to disk)
-- ⚠️ **Command Line:** Passwords embedded in PowerShell commands (documented limitation)
-- ✅ **No Telemetry:** Application does not communicate externally
-- ✅ **Local Operations:** All operations are local or via PowerShell Remoting
-
-> **Security Note:** For production environments, consider using integrated authentication or Get-Credential prompts instead of direct password entry.
 
 ## 🐛 Troubleshooting
 
@@ -246,7 +176,6 @@ YHunter was designed for security professionals, incident responders, and threat
 
 - **Issues:** [GitHub Issues](https://github.com/michaelyamout/YHunter/issues)
 - **Releases:** [GitHub Releases](https://github.com/michaelyamout/YHunter/releases)
-- **Documentation:** See `README.md` and `YHunter-GUI/README.md` for detailed documentation
 
 
 
