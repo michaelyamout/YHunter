@@ -12,18 +12,6 @@
 
 YHunter automates the collection of 25 different types of system information including processes, services, network connections, event logs, user accounts, scheduled tasks, and more. It's designed to be lightweight, fast, and completely self-contained with no external dependencies.
 
-### Key Features
-
-- ✅ **Native C Implementation** - Single executable, no dependencies
-- ✅ **25 Data Collection Modules** - Comprehensive system telemetry
-- ✅ **Selective Execution** - Run specific commands or groups
-- ✅ **UTF-8 Output** - PowerShell-compatible encoding
-- ✅ **Timeout Protection** - 3-minute timeout per command prevents hangs
-- ✅ **Append Mode** - Adds to existing logs or creates new ones
-- ✅ **Clear Formatting** - Timestamped section headers for easy parsing
-- ✅ **Zero Network Activity** - All operations are local
-
-## 📦 What's Included
 
 ### YHunter.exe (Standalone Collector)
 
