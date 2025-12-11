@@ -148,6 +148,14 @@ YHunter collects 25 different types of system information organized into 7 logic
 - `1` - Fatal error (cannot open output file, invalid arguments)
 - `2` - Critical system error (memory allocation failure)
 
+
+
+
+
+
+
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
@@ -156,17 +164,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 This tool is provided as-is for threat hunting and security assessment purposes.
 
-## 🙏 Acknowledgments
-
-YHunter was designed for security professionals, incident responders, and threat hunters who need reliable, repeatable host-based data collection. Special thanks to the security community for feedback and testing.
-
-## 📞 Support
-
-- **Issues:** [GitHub Issues](https://github.com/michaelyamout/YHunter/issues)
-- **Releases:** [GitHub Releases](https://github.com/michaelyamout/YHunter/releases)
-
-
-
-- Log retrieval
-- Troubleshooting
 
