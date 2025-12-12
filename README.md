@@ -6,7 +6,7 @@
 
 **YHunter** is a native 64-bit Windows console application designed for threat hunting and security assessment. It collects standardized host-based telemetry from Windows systems by executing built-in Windows commands and PowerShell cmdlets, producing comprehensive system snapshots for analysis.
 
-<img width="1085" height="986" alt="image" src="https://github.com/user-attachments/assets/69404000-178f-4961-bf26-b44fe1056adb" />
+<img width="1079" height="1006" alt="image" src="https://github.com/user-attachments/assets/69bf9c45-24e7-4a05-a0a2-04ec414b4621" />
 
 ## 🎯 Overview
 
